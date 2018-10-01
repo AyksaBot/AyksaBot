@@ -1,5 +1,5 @@
 const Discord = require('discord.js')
-const client = new Discord.Client({autoReconnect: true, disableEvents: ["TYPING_START", "TYPING_STOP", "GUILD_MEMBER_SPEAKING", "GUILD_MEMBER_AVAILABLE", "PRESSENCE_UPDATE"]}, {fetchAllMembers: true});
+const client = new Discord.Client({fetchAllMembers: true});
 const express = require('express');
 const coinflip = require('coinflip')
 const app = express();
